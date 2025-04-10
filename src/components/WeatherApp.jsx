@@ -233,7 +233,7 @@ const WeatherApp = () => {
             </Typography>
           )}
 
-          <Box sx={{ mt: 20, textAlign: "center" }}>
+          <Box sx={{ mt: 18, textAlign: "center" }}>
             <Typography
               sx={{
                 fontSize: { xs: "1.2rem", sm: "1.6rem" },
