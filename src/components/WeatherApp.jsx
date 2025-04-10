@@ -77,8 +77,8 @@ const WeatherApp = () => {
 
   const imageStyle = {
     position: "absolute",
-    top: "55%",
-    left: "49%",
+    top: "50%",
+    left: "50%",
     transform: "translate(-50%, -50%)",
     width: "150%",
     maxWidth: "1000px", // Adjust image size for responsiveness
@@ -155,7 +155,7 @@ const WeatherApp = () => {
           sx={{
             width: "100%",
             maxWidth: "28rem",
-            height: "95%",
+            height: "60%",
             background: boxBackground,
             borderRadius: "2.5rem",
             display: "flex",
@@ -233,7 +233,7 @@ const WeatherApp = () => {
             </Typography>
           )}
 
-          <Box sx={{ mt: 16, textAlign: "center" }}>
+          <Box sx={{ mt: 20, textAlign: "center" }}>
             <Typography
               sx={{
                 fontSize: { xs: "1.2rem", sm: "1.6rem" },
@@ -277,7 +277,7 @@ const WeatherApp = () => {
             sx={{
               width: "100%",
               display: "flex",
-              gap: "10%",
+              gap: "15%",
               mt: "5%",
               justifyContent: "center",
               flexWrap: "wrap",
